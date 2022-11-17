@@ -26,7 +26,7 @@ searchByPin.addEventListener('click', () => {
                                 <td>${details[i].District}</td>
                                 <td>${details[i].Division}</td>
                                 <td>${details[i].Region}</td>
-                                <td>${details[i].Block}</td>
+                                <td>${details[i].Country}</td>
                                 <td>${details[i].State}</td>
                                 <td>${details[i].Pincode}</td>
                           </tr>`
@@ -60,7 +60,7 @@ searchByPost.addEventListener('click', () => {
                                 <td>${details[i].District}</td>
                                 <td>${details[i].Division}</td>
                                 <td>${details[i].Region}</td>
-                                <td>${details[i].Block}</td>
+                                <td>${details[i].Country}</td>
                                 <td>${details[i].State}</td>
                                 <td>${details[i].Pincode}</td>
                           </tr>`
