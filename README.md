@@ -1,4 +1,4 @@
-# postofficce
+# postoffice
 This website will give you the search result using post office details you enter using postoffice API
 This website takes search values by either pin or by post office name
 It displays the data into a table for the pin or the post office which you have searched
