@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-image: url("postoffice_bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.title-area,
+.description,
+.entry-area {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+#pin-search,
+#post-office-search {
+  font-weight: 600;
+}
+#search-box {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+#output {
+  display: none;
+}
